@@ -1,0 +1,53 @@
+=== TMC INTERN SUBMISSION ===
+DAY: 1
+DATE: 2026-07-02
+INTERN NAME: Abdullah Bin Zubair
+UNIVERSITY & YEAR: GIK Institute of Engineering Sciences and Technology, Junior (3rd year)
+TEAM NAME: TMC intern
+AI TOOLS USED: Claude
+
+--- ANSWERS ---
+1. Enterprise software is programs built to run an entire organization's operations rather than one person's task — HR, finance, inventory, sales, all connected. An ERP (Enterprise Resource Planning) system is the specific type that ties those departments into one shared database, so one transaction updates everywhere automatically.
+2. SAP is a German company and the world's biggest maker of ERP software. A "system integrator / SAP partner" is a company that installs, configures, connects, and supports SAP for a client rather than building the software itself.
+3. TMC (TallyMarks Consulting) was founded in 2010 and is headquartered in Lahore. It's known as Pakistan's largest SAP partner for six consecutive years, serving 320+ clients across Pakistan, UAE, KSA and the USA. Recent achievement: named a Global Winner at the 2026 SAP Partner Awards.
+4. AiNow is TMC's own description of itself as "not a product, not a platform — a movement": a commitment to making every organization AI-enabled and AI-first. In practice it also functions as their AI-powered analytics offering, turning business data into real-time insights for faster, smarter decisions.
+5. Digitizing a process means putting a manual task (paper, spreadsheets) into software — faster, less error-prone, but still just recording what happened. Making it intelligent means the software also interprets and acts: flags anomalies, predicts outcomes, recommends decisions — anticipating rather than just reporting.
+6. Example: Accounts Payable. A normal ERP just records invoices and payments. AI on top can read incoming invoices, flag duplicates or fraud, match them to purchase orders, and auto-approve routine ones — turning a manual finance task into something largely self-running.
+
+--- DELIVERABLE ---
+"Explain to a friend" paragraph:
+Imagine a huge business (a bank, a factory, a university) that wants all its departments — finance, HR, inventory — talking to one shared system instead of a mess of spreadsheets. That system is usually SAP, basically the biggest "operating system for a business." TMC doesn't build SAP, they install it, customize it, and keep it running for clients — they've done this since 2010 and are Pakistan's biggest SAP partner. Lately they've pushed into AI too, under something they call "AiNow." It's less a product, more their whole philosophy: don't just digitize a company's processes, make the software actually think — flag problems, predict trends, recommend decisions instead of just storing data. So it's like SAP got a brain. They just won a global SAP award for it — first Pakistani company to do so.
+
+Team glossary (12 terms):
+01.ERP — one shared software system running a company's core operations together.
+02.SAP — the German company making the world's most widely used ERP software.
+03.S/4HANA — SAP's newest-generation ERP, built for real-time data and AI.
+04.System Integrator (SAP Partner) — a company that installs and supports SAP for clients.
+05.SAP BTP (Business Technology Platform) — SAP's cloud platform for extending and personalizing SAP apps or connecting entire system landscapes together. Tmcltd
+06.RISE with SAP — SAP's bundled offering to move a company's SAP system to the cloud (S/4HANA Cloud) as one packaged upgrade path, rather than piecing it together separately. Tmcltd
+07.SAP Fiori — SAP's design system for making enterprise apps look and feel as easy to use as a consumer app. Tmcltd
+08.SAP Ariba — SAP's procurement/purchasing module, used for buying and vendor management (paired with TMC's SpendConsole product).
+09.SpendConsole — TMC's AI-powered accounts payable automation tool that reads invoices, flags fraud, and automates approvals for SAP/SAP Ariba users. Tmcltd
+10.Qlik — a business intelligence and data-integration platform TMC resells and builds dashboards on, separate from SAP itself. Tmcltd
+11.Data Lake / Data Warehouse Automation — using Qlik Replicate and Qlik Compose to automatically build a scalable, flexible store of data for analytics, instead of assembling it manually.
+12.SAP SuccessFactors — SAP's HR/human capital management module, one of the specific SAP products TMC implements alongside S/4HANA and BTP. 
+
+
+--- PROMPT LOG ---
+1. "What is AiNow by TMC — is it a product or something else? What does TMC's AI-powered analytics do for clients?"
+2. "Who is TMC (TallyMarks Consulting) — founding year, home base, what they're known for, one recent achievement. Give a source."
+3. "Explain the difference between digitizing a process and making it intelligent, in plain English."
+4. "Give one real example of a business task that becomes dramatically better with AI added on top of ordinary ERP software."
+
+--- SOURCES & VERIFICATION ---
+https://tmcltd.com/about/ (founding year, mission, AiNow description, 2026 SAP Partner Award)
+https://clients.tmcltd.com (client geography, SAP partner status)
+https://pk.linkedin.com/company/tallymarks-consulting (Pakistan's Top SAP Partner claim, history since 2010)
+AI - unverified: exact claim that TMC is "the first Pakistani company" to win a Global SAP Partner Award — only found on TMC's own site, not cross-checked against SAP's official press release.
+
+--- REFLECTION ---
+Most surprising thing I learned: AiNow is deliberately positioned as a "movement," not a product — a branding choice to make AI feel like a company-wide mindset rather than just another software SKU.
+One thing I'm still unsure about: Whether TMC's AI analytics is a distinct product line or just marketing language layered over their existing SAP/Qlik BI tools — the website doesn't clearly separate the two.
+How my team helped: [fill in after Phase 2 discussion — e.g. "team cross-checked TMC's founding year and award claim, agreed on final source list"]
+Time spent (approx): [fill in your actual time]
+=== END ===
