@@ -1,0 +1,149 @@
+Secure AI Framework (SAIF): A comprehensive suite of tools and best practices for building secure AI systems.
+Mandiant: Leverage Mandiant's threat intelligence and expertise to protect your AI systems from cyberattacks.
+
+AI Principles: Google's published AI Principles guide the development and deployment of AI technologies.
+
+Responsible AI Toolkit: Resources and tools to help developers and organizations build AI systems that are fair, unbiased, and socially beneficial.
+
+
+
+Agent Platform: A unified platform for building and deploying machine learning models, including Gemini. It provides enterprise-grade security, scalability, and compliance.
+
+Google Cloud's security infrastructure: Benefit from Google's world-class security infrastructure, including data encryption, access control, and network security.
+
+Compliance certifications: Google Cloud offers services that support compliance with a wide range of industry standards and regulations, including ISO 27001, SOC 2, and HIPAA.
+
+
+Supervised machine learning trains models on labeled data, where each input is paired with its correct output, allowing the model to learn the relationship between them. The model's goal is to identify patterns and relationships within this labeled data, enabling it to accurately predict outputs for new, unseen inputs.
+
+Unsupervised ML models deal with raw, unlabeled data to find natural groupings. Instead of learning from labeled data, it dives headfirst into a sea of unlabeled data. 
+
+Reinforcement learning is all about learning through interaction and feedback. Imagine a robot learning to navigate a maze. It starts with no knowledge of the maze's layout. As it explores and interacts with the maze, it collects data—bumping into walls (negative feedback) or finding shortcuts (positive feedback). Through this process of trial and error, the algorithm learns which actions lead to the best outcomes.
+
+
+Stages of Making data accesible to AI
+
+DATA GATHERING
+Data gathering, also called data ingestion, involves collecting raw data from various sources. To effectively train and test your model, determine the data you need based on the outcome you want to achieve.
+
+
+
+Google Cloud supports data ingestion through several tools. 
+
+Pub/Sub handles real-time streaming data processing, regardless of the structure of the data.
+Cloud Storage is well-suited for storing unstructured data.
+Cloud SQL and Spanner are used to manage structured data.
+
+
+DATA PREPARATION
+Data preparation is the process of cleaning and transforming raw data into a usable format for analysis or model training. This involves formatting and labeling data properly. 
+
+
+
+Google Cloud offers tools like BigQuery for data analysis and Data Catalog for data governance. These tools help prepare data for ML models. 
+
+
+
+With BigQuery, you can filter data, correct its inconsistencies, and handle missing values. 
+
+
+
+With Data Catalog, you can find relevant data for your ML projects. This tool provides a centralized repository to easily discover datasets in your organization.
+
+Train model
+
+The process of creating your ML model using data is called model training. Google Cloud's Gemini Enterprise Agent Platform provides a managed environment for training ML models. 
+
+
+
+With Agent Platform, you can set parameters and build your model, using prebuilt containers for popular machine learning frameworks, custom training jobs, and tools for model evaluation. Agent Platform also provides access to powerful computing resources to make the model training process faster.
+
+
+odel deployment
+Model deployment is the process of making a trained model available for use. 
+
+
+
+Agent Platform simplifies this by providing tools to put the model into action for generating predictions. This includes scaling the deployment, which means adjusting the resources allocated to the model to handle varying amounts of usage.
+
+
+model management
+
+Model management is the process of managing and maintaining your models over time. Google Cloud offers tools for managing the entire lifecycle of ML models. This includes the following:
+
+
+
+Versioning: Keep track of different versions of the model.
+Performance tracking: Review the model metrics to check the model's performance.
+Drift monitoring: Watch for changes in the model's accuracy over time.
+Data management: Use Agent Platform Feature Store to manage the data features the model uses.
+Storage: Use Model Garden to store and organize the models in one place.
+Automate: Use Agent Platform Pipelines to automate your machine learning tasks.
+
+
+
+Diffusion models
+Diffusion models are another type of foundational model. They excel in generating high-quality images, audio, and even video by iteratively refining noise (or unstructured/random data and patterns) into structured data.
+
+
+Factors for choosing an AI model 
+
+Modality
+
+Context window
+
+Security
+
+Availability and reliability
+
+Cost
+
+
+
+Performance
+
+Fine-tuning and customization
+
+Ease of integration
+
+
+
+
+---> Foundation model limitations
+
+Knowledge cutoff
+
+
+Bias
+
+Fairness
+
+Hallucinations
+
+Edge cases
+
+
+
+Tecniques to overcome limitations
+
+
+Grounding is the process of connecting the AI's output to verifiable sources of information—like giving AI a reality check.
+
+
+RAG is a grounding method that uses search to find relevant information from a knowledge base and provides that information to the LLM, giving it necessary context.
+
+Prompt engineering is the process of designing effective prompts to guide the AI's responses. By carefully crafting prompts, you can influence the model's output to be more accurate and relevant.
+
+FIne tuning involves training the model on a specific dataset to improve its performance on a particular task or domain. This can help reduce bias and improve accuracy.
+
+
+Conversational agents
+
+Workflow agents
+
+
+Zero-shot prompting is like asking a foundation model to complete a task with no prior examples, relying solely on its existing knowledge. 
+One-shot prompting involves showing the foundation model just one example, allowing it to learn and apply that knowledge to similar situations. 
+Few-shot prompting, on the other hand, provides the foundation model with multiple examples to learn from, which helps it better understand the task and improve its performance.
+
+Role prompting is a technique used to guide the behavior of LLMs by assigning them a specific role or persona. This can be anything from a business analyst or Shakespearean actor to a helpful customer service agent. By instructing the model to adopt a particular role, you influence the style, tone, and focus of its responses.
