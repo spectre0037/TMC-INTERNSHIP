@@ -48,6 +48,6 @@ AI - unverified: exact claim that TMC is "the first Pakistani company" to win a 
 --- REFLECTION ---
 Most surprising thing I learned: AiNow is deliberately positioned as a "movement," not a product — a branding choice to make AI feel like a company-wide mindset rather than just another software SKU.
 One thing I'm still unsure about: Whether TMC's AI analytics is a distinct product line or just marketing language layered over their existing SAP/Qlik BI tools — the website doesn't clearly separate the two.
-How my team helped: [fill in after Phase 2 discussion — e.g. "team cross-checked TMC's founding year and award claim, agreed on final source list"]
-Time spent (approx): [fill in your actual time]
+How my team helped: cross checking facts
+Time spent (approx): 6 hours
 === END ===
